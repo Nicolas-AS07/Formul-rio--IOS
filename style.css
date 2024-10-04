@@ -1,0 +1,78 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #72c5da;
+
+}
+h1{
+    text-align: center;
+    color: #f0ffff;
+
+}
+form{
+    background-color: #d5d5e6;
+    padding: 25px;
+    border-radius: 18px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 0 0px #8a2be2;
+}
+label{
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px 0;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="url"],
+input[type="tel"],
+input[type="date"],
+input[type="color"],
+select,
+
+textarea{
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #fdffff;
+    border-radius: 8px;
+    box-sizing: border-box;
+    width: calc(100% - 30px);
+}
+input[type="range"] {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 7px;
+}
+input[type="file"] {
+    margin-top: 15px;
+
+}
+button {
+    width: 30%;
+    padding: 15px;
+    background-color: #a52a2a;
+    color: #f0f8ff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+
+
+}
+button:hover {
+    background-color: #c23434;
+}
+.small-input {
+    width: auto;
+    display: inline-block;
+}
+.inline-label {
+    display: inline-block;
+    margin-right: 15px;
+}
